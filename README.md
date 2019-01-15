@@ -17,12 +17,12 @@ Actual Time to complete: ???
 
 1. I Built A Zoo Project utilizes the OOP principles to build a hierarchical class structure.
 2. The OOP principles are:
-	- 
+	- Inheritance
 		3Example
-	- 
+	- Abstraction
 		3Example
-	- 
+	- Polymorphism
 		3Example
-	- 
+	- Encapsulation
 		3Example
 3. ![Digital Drawing]()
