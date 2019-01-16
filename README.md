@@ -25,4 +25,4 @@ Actual Time to complete: 10 Hours
 		3Example
 	- Encapsulation
 		3Example
-3. ![Digital Drawing]()
+3. ![Digital Drawing](https://github.com/drewsview34/Lab40105iBuiltZoo/blob/master/Digit%20Diagram.PNG)
