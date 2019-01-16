@@ -4,10 +4,10 @@ Lab 40105 I Built A Zoo
 
 Developer: Andrew Hinojosa
 
-Contributors: ???
+Contributors: Ryna Truong && Deziree Teague
 
 
-Actual Time to complete: ???
+Actual Time to complete: 10 Hours
 
 * User must create a new project in Visual Studio. 
 * User must push project to Github.
