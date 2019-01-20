@@ -4,7 +4,7 @@ using System.Text;
 
 namespace iBuiltZoo_40105.Class
 {
-    class Grizzley : Bears
+    public class Grizzley : Bears
     {
         public bool IsScary { get; set; }
         public override string Omnivore { get; set; }
