@@ -21,5 +21,9 @@ namespace iBuiltZoo_40105.Class
             return base.GoesFishing();
         }
 
+        public bool AtTheZoo(IAtTheZoo atTheZoo)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

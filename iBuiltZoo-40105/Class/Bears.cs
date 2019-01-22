@@ -19,5 +19,10 @@ namespace iBuiltZoo_40105.Class
         {
             return "I Can Sit";
         }
+
+        public override bool GoesFishing()
+        {
+            return base.GoesFishing();
+        }
     }
 }
