@@ -14,7 +14,7 @@ namespace iBuiltZoo_40105.Class
 
         public virtual string EatsMeat()
         {
-            return "I eat meat";
+            return "eat meat";
         }
 
         public virtual bool GoesFishing()

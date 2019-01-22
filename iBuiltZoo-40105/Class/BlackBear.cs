@@ -12,7 +12,7 @@ namespace iBuiltZoo_40105.Class
 
         public void IsWild()
         {
-            Console.WriteLine("Guppy's are a tropical fish");
+            Console.WriteLine("are wild");
         }
 
         public override bool Poops()
