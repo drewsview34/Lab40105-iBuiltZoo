@@ -17,7 +17,7 @@ namespace iBuiltZoo_40105.Class
 
         public string Sit()
         {
-            return "I Can Sit";
+            return "Can Sit";
         }
 
         public override bool GoesFishing()
