@@ -8,7 +8,7 @@ namespace Lab40105xUnit
     public class UnitTest1
     {
         [Fact]
-        public void OwlIsABird()
+        public void TigerIsFelines()
         {
             Tigers tigers = new Tigers();
             Assert.True(tigers is Felines);
@@ -36,10 +36,10 @@ namespace Lab40105xUnit
         }
 
         [Fact]
-        public void GrizzleyFromTheJungle()
+        public void GrizzleyNorthAmerican()
         {
             Grizzley grizzley = new Grizzley();
-            Assert.True(grizzley.FromTheJungle());
+            Assert.False(grizzley.ClimbsTrees);
         }
 
         [Fact]
@@ -57,11 +57,23 @@ namespace Lab40105xUnit
         }
 
         [Fact]
-        public void SockeyeCanSwim()
+        public void KodiakFromTheJungle()
         {
             Kodiak kodiak = new Kodiak();
-            Assert.True(kodiak.FromTheJungle());
+            Assert.False(kodiak.HasTail);
+        }
+        [Fact]
+        public void LionsIsFelines()
+        {
+            Lions lions = new Lions();
+            Assert.True(lions is Felines);
+        }
 
+        [Fact]
+        public void LionsIsDomestic()
+        {
+            Lions lions = new Lions();
+            Assert.False(lions.Domestic);
         }
     }
 }
