@@ -6,9 +6,9 @@ namespace iBuiltZoo_40105.Class
 {
     public abstract class Felines
     {
-        public string Cats { get; set; }
-        abstract public bool Domestic { get; set; }
-        public string Meals { get; set; }
+        public bool Cats { get; set; }
+        public abstract bool Domestic { get; set; }
+        public bool Meals { get; set; }
 
         public void FelinesPurr()
         {
@@ -19,6 +19,8 @@ namespace iBuiltZoo_40105.Class
         {
             return true;
         }
+
+
 
     }
 }

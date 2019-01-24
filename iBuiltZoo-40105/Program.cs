@@ -1,5 +1,6 @@
 ﻿using iBuiltZoo_40105.Class;
 using System;
+using iBuiltZoo_40105.Interfaces;
 
 namespace iBuiltZoo_40105
 {
@@ -7,7 +8,7 @@ namespace iBuiltZoo_40105
     {
         static void Main(string[] args)
         {
-            BlackBear blackBear = new BlackBear();
+            Blackbear blackBear = new Blackbear();
             Console.WriteLine("============BLACK BEAR============");
             Console.WriteLine(blackBear.EatsMeat());
             Console.WriteLine($"Black Bears are at the zoo {blackBear.IsAtTheZoo}");
@@ -22,8 +23,8 @@ namespace iBuiltZoo_40105
             Kodiak kodiak = new Kodiak();
             Console.WriteLine("============KODIAK============");
             Console.WriteLine(kodiak.EatsMeat());
-            Console.WriteLine($"Kodiaks {kodiak.Sit()}");
-            Console.WriteLine($"Kodiaks Don't Have a Tail { kodiak.HasTail} ");
+            Console.WriteLine($"Kodiaks {kodiak.Carnivore}");
+            Console.WriteLine($"Kodiaks Don't Have a Tail { kodiak.CanStand}");
 
             Grizzley grizzley = new Grizzley();
             Console.WriteLine("============GRIZZLEY============");
@@ -31,7 +32,12 @@ namespace iBuiltZoo_40105
             Console.WriteLine($"Grizzlies Do hibernate {grizzley.Hibernates}");
             Console.WriteLine($"Grizzlies Do { grizzley.HasTail }");
 
-
+            
+            Lions lions = new Lions();
+            Console.WriteLine("============LIONS============");
+            Console.WriteLine($"Lions eat meals {lions.Meals}");
+            Console.WriteLine($"Lions are domestic {lions.Domestic}");
+            Console.WriteLine($"Lions have stripes {lions.HasStrips}");
 
 
         }

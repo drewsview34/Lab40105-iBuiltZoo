@@ -4,10 +4,10 @@ using System.Text;
 
 namespace iBuiltZoo_40105.Class
 {
-    class Lions : Felines
+    public class Lions : Felines
     {
         public bool HasStrips { get; set; }
-        public override bool Domestic { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override bool Domestic { get; set; }
 
         public void EatHumans()
         {
