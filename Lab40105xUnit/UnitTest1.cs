@@ -1,4 +1,5 @@
 using iBuiltZoo_40105.Class;
+using iBuiltZoo_40105.Interfaces;
 using System;
 using Xunit;
 
@@ -30,7 +31,7 @@ namespace Lab40105xUnit
         [Fact]
         public void BlackBearPoops()
         {
-            BlackBear blackBear = new BlackBear();
+            Blackbear blackBear = new Blackbear();
             Assert.True(blackBear.Poops());
         }
 

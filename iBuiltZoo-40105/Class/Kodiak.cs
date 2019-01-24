@@ -5,37 +5,35 @@ using System.Text;
 
 namespace iBuiltZoo_40105.Class
 {
-    public class Kodiak : Bears, IAtTheZoo
+    public class Kodiak : Bears, IGoesFishing
     {
         public string HasTeeth { get; set; }
         public override string Omnivore { get; set; }
         public override string Hibernates { get; set; }
 
-        public bool HasNoFur()
+        public override bool CanRoar()
         {
             return true;
         }
 
         public bool CanFly()
         {
-            throw new NotImplementedException();
+            return false;
         }
 
         public override bool FromTheJungle()
         {
-            return base.FromTheJungle();
+            return false;
         
         }
 
-        public bool AtTheZoo()
+        public override bool Poops()
         {
             return true;
         }
-
-        public bool AtTheZoo(IAtTheZoo atTheZoo)
+        public override bool GoesFishing()
         {
-            throw new NotImplementedException();
+            return base.GoesFishing();
         }
     }
-
 }

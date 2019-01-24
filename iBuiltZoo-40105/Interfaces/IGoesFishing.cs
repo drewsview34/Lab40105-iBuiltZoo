@@ -4,7 +4,7 @@ using System.Text;
 
 namespace iBuiltZoo_40105.Interfaces
 {
-    interface IGoesFishing
+    public interface IGoesFishing
     {
         bool GoesFishing();
 

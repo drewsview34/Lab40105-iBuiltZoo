@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using iBuiltZoo_40105.Interfaces;
 
 namespace iBuiltZoo_40105.Class
 {
-    public class Grizzley : Bears
+    public class Grizzley : Bears, IGoesFishing
     {
         public bool IsScary { get; set; }
         public override string Omnivore { get; set; }
@@ -17,12 +18,22 @@ namespace iBuiltZoo_40105.Class
 
         public override bool FromTheJungle()
         {
-            return base.FromTheJungle();
+            return false;
         }
 
         public override bool Poops()
         {
-            return base.Poops();
+            return true;
+        }
+
+        public override bool CanRoar()
+        {
+            return true;
+        }
+
+        public override bool GoesFishing()
+        {
+            return base.GoesFishing();
         }
     }
 }

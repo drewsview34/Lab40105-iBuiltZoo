@@ -13,17 +13,12 @@ namespace iBuiltZoo_40105.Class
 
         public override bool FromTheJungle()
         {
-            return base.FromTheJungle();
+            return true;
         }
 
         public override bool GoesFishing()
         {
             return base.GoesFishing();
-        }
-
-        public bool AtTheZoo(IAtTheZoo atTheZoo)
-        {
-            throw new NotImplementedException();
         }
     }
 }

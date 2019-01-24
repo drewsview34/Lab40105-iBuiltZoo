@@ -23,10 +23,8 @@ namespace iBuiltZoo_40105.Class
             return true;
         }
 
-        public virtual bool Poops()
-        {
-            return true;
-
-        }
+        public abstract bool Poops();
+        
+        public abstract bool CanRoar();
     }
 }

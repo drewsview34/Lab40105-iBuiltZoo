@@ -8,10 +8,10 @@ namespace iBuiltZoo_40105.Class
     {
         public virtual bool HasStrips { get; set; }
         public override bool Domestic { get; set; }
-
+        
         public void TonyTheTiger()
         {
-            Console.WriteLine("Owls make Hoo sounds");
+            Console.WriteLine("They'rrree Great!!");
         }
 
         public override bool KingOfTheJungle()
