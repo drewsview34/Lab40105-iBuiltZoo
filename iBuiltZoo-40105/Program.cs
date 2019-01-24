@@ -35,9 +35,9 @@ namespace iBuiltZoo_40105
             
             Lions lions = new Lions();
             Console.WriteLine("============LIONS============");
-            Console.WriteLine($"Lions {lions.Cats()s}");
-            Console.WriteLine($"Lions {lions.Domestic}");
-            Console.WriteLine($"Lions {lions.HasStrips}");
+            Console.WriteLine($"Lions eat meals {lions.Meals}");
+            Console.WriteLine($"Lions are domestic {lions.Domestic}");
+            Console.WriteLine($"Lions have stripes {lions.HasStrips}");
 
 
         }
